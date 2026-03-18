@@ -1,0 +1,28 @@
+.loading{
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-inline: auto;
+  width: fit-content;
+}
+.alert{
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  left: auto;
+  right: auto;
+}
+.discovery{
+  th,div,td,label{
+    color:white
+  }
+  input{
+    border: 1px solid white;
+  }
+  th,div,td,label{
+    color:white
+  }
+  td,th{
+    border-bottom: none;
+  }
+}
