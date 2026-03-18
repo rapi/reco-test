@@ -9,8 +9,8 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body style={{ margin: 0 }}>
+    <html lang="en" suppressHydrationWarning>
+      <body style={{ margin: 0 }} suppressHydrationWarning>
         <Grid container spacing={0}>
           <Grid size={1.5}>
             <Navbar />
